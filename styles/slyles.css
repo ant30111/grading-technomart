@@ -29,3 +29,129 @@
   font-style: normal;
   font-display: swap;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100%;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+/* Паттерны */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.btn {
+  padding: 0;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
+.title,
+.paragraph {
+  margin: 0;
+}
+
+
+/* Хедер */
+.info-header {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 14px 0 13px;
+}
+
+.page-title {
+  max-width: 521px;
+  margin-right: 180px;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ee3643;
+}
+
+.info-header-address {
+  max-width: 280px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #32425c;
+}
+
+.info-phone-header-link {
+  position: relative;
+  margin-left: auto;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #293449;
+}
+
+.info-phone-header-link:hover {
+ color: rgba(41, 52, 73, 0.5);
+}
+
+.info-phone-header-link:focus {
+ outline: 1px solid #293449;
+}
+
+.info-phone-header-link:active {
+  color: rgba(41, 52, 73, 0.3);
+}
+
+.info-phone-header-link::before {
+  position: absolute;
+  left: -24px;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background: url("../images/icons/header-phone-icon.svg");
+  content: "";
+}
