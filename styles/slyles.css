@@ -184,7 +184,7 @@ body {
 
 .page-logo:focus {
   outline: 2px solid #ee3643;
-  outline-offset: 2px;
+  outline-offset: 4px;
 }
 
 .page-logo:active {
@@ -210,6 +210,10 @@ body {
   color: #ffffff;
 }
 
+.header-field:disabled {
+  background-color: #a2a4a7;
+}
+
 .close-field-btn {
   position: absolute;
   display: none;
@@ -217,7 +221,38 @@ body {
   right: 21px;
   width: 12px;
   height: 12px;
-  background: url("../images/icons/cross-input-icon.svg") no-repeat transparent;
+  background-color: transparent;
+}
+
+.close-field-btn::after,
+.close-field-btn::before {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 12px;
+  height: 2px;
+  background-color: #32425c;
+  content: "";
+}
+
+.close-field-btn::after {
+  transform: rotate(45deg);
+}
+
+.close-field-btn::before {
+  transform: rotate(-45deg);
+}
+
+.close-field-btn:hover {
+  opacity: 0.5;
+}
+
+.close-field-btn:focus {
+  outline: 1px solid #32425c;
+}
+
+.close-field-btn:active {
+  opacity: 0.3;
 }
 
 .header-field:focus {
