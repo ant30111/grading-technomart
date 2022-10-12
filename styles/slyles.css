@@ -429,5 +429,33 @@ body {
 }
 
 .profile-popover-wrapper {
+  position: relative;
   display: flex;
+  padding-left: 30px;
+}
+
+.control-mark-popover {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #3d546f;
+  border-radius: 2px;
+}
+
+.control-mark-popover::after {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  width: 9px;
+  height: 7px;
+  background: url("../images/icons/mark-login-popover-icon.svg") no-repeat;
+  content: "";
+}
+
+.control-label-popover {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
 }
