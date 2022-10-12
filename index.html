@@ -32,10 +32,20 @@
             <form class="header-form" action="https://echo.htmlacademy.ru/" method="post">
               <label class="visually-hidden" for="search-text">Текстовое поле для поиска</label>
               <input class="field header-field" type="text" id="search-text" placeholder="Поиск:">
-              <button class="btn close-field-btn" type="button"></button>
+              <button class="btn close-field-btn" type="button">
+                <span class="visually-hidden">Сбросить текст поиска</span>
+              </button>
             </form>
 
             <button class="btn login-btn" type="button">Войти</button>
+
+            <!-- Поповер логина -->
+            <div class="login-popover-container">
+              <h2 class="title login-popover-title">Личный кабинет</h2>
+              <button class="btn close-login-popover-btn" type="button">
+                <span class="visually-hidden">Закрыть форму логина</span>
+              </button>
+            </div>
           </div>
         </div>
       </header>

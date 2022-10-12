@@ -169,6 +169,7 @@ body {
 }
 
 .middle-header-content {
+  position: relative;
   display: flex;
   width: 1170px;
   margin: 0 auto;
@@ -315,5 +316,72 @@ body {
 }
 
 .login-btn:active {
+  opacity: 0.3;
+}
+
+/* Поповер логина */
+.login-popover-container {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  z-index: 1;
+  width: 360px;
+  padding: 22px 29px 35px 31px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.login-popover-title {
+  max-width: 257px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.close-login-popover-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  outline: 2px solid #c4c4c4;
+  outline-offset: -2px;
+  border-radius: 50%;
+}
+
+.close-login-popover-btn::after,
+.close-login-popover-btn::before {
+  position: absolute;
+  top: 9px;
+  left: 6px;
+  width: 9px;
+  height: 2px;
+  background-color: #c4c4c4;
+  content: "";
+}
+
+.close-login-popover-btn::after {
+  transform: rotate(45deg);
+}
+
+.close-login-popover-btn::before {
+  transform: rotate(-45deg);
+}
+
+.close-login-popover-btn:hover {
+  opacity: 0.5;
+}
+
+.close-login-popover-btn:focus {
+  outline: 2px solid #000000;
+}
+
+.close-login-popover-btn:focus::after,
+.close-login-popover-btn:focus::before {
+  background-color: #000000;
+}
+
+.close-login-popover-btn:active {
   opacity: 0.3;
 }
