@@ -427,3 +427,7 @@ body {
 .popover-field:disabled {
   background-color: #f1f5f7;
 }
+
+.profile-popover-wrapper {
+  display: flex;
+}
