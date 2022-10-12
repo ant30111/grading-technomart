@@ -96,6 +96,14 @@ body {
   margin: 0;
 }
 
+.field {
+  display: block;
+  padding: 0;
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
 
 /* Хедер */
 .info-header {
@@ -181,4 +189,46 @@ body {
 
 .page-logo:active {
   opacity: 0.5;
+}
+
+.header-form {
+  position: relative;
+}
+
+.header-field {
+  width: 717px;
+  height: 100%;
+  padding: 10px 53px 11px 53px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: url("../images/icons/search-icon.svg") no-repeat 21px 50% transparent;
+}
+
+.header-field::placeholder {
+  color: #ffffff;
+}
+
+.close-field-btn {
+  position: absolute;
+  display: none;
+  bottom: 17px;
+  right: 21px;
+  width: 12px;
+  height: 12px;
+  background: url("../images/icons/cross-input-icon.svg") no-repeat transparent;
+}
+
+.header-field:focus {
+  color: #293449;
+  background-color: #f1f5f7;
+}
+
+.header-field:focus::placeholder {
+  color: #c5c5c5;
+}
+
+.header-field:focus + .close-field-btn {
+  display: block;
 }
