@@ -292,3 +292,28 @@ body {
 .header-field:focus + .close-field-btn {
   display: block;
 }
+
+.login-btn {
+  width: 80px;
+  margin-left: auto;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #f1f5f7;
+  background: url("../images/icons/login-icon.svg") no-repeat 0 50% transparent;
+}
+
+.login-btn:hover {
+  opacity: 0.5;
+}
+
+.login-btn:focus {
+  outline: 2px solid #f1f5f7;
+  outline-offset: -2px;
+}
+
+.login-btn:active {
+  opacity: 0.3;
+}
