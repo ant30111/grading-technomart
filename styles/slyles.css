@@ -155,3 +155,30 @@ body {
   background: url("../images/icons/header-phone-icon.svg");
   content: "";
 }
+
+.middle-header-bg {
+  background-color: #293449;
+}
+
+.middle-header-content {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.page-logo {
+  max-height: 45px;
+}
+
+.page-logo:hover {
+  opacity: 0.7;
+}
+
+.page-logo:focus {
+  outline: 2px solid #ee3643;
+  outline-offset: 2px;
+}
+
+.page-logo:active {
+  opacity: 0.5;
+}
