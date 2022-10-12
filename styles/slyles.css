@@ -143,11 +143,11 @@ body {
 }
 
 .info-phone-header-link:hover {
- color: rgba(41, 52, 73, 0.5);
+  color: rgba(41, 52, 73, 0.5);
 }
 
 .info-phone-header-link:focus {
- outline: 1px solid #293449;
+  outline: 1px solid #293449;
 }
 
 .info-phone-header-link:active {
@@ -204,14 +204,39 @@ body {
   line-height: 24px;
   color: #ffffff;
   background: url("../images/icons/search-icon.svg") no-repeat 21px 50% transparent;
+  cursor: pointer;
 }
 
 .header-field::placeholder {
   color: #ffffff;
 }
 
+.header-field:hover {
+  outline: 1px solid #63a63e;
+  border-radius: 2px;
+}
+
+.header-field:focus {
+  outline: 1px solid #ffbf47;
+  border-radius: 2px;
+}
+
+.header-field:invalid {
+  outline: 1px solid #ee3643;
+  border-radius: 2px;
+}
+
+.header-field:invalid:hover {
+  outline: 2px solid #ee3643;
+  border-radius: 2px;
+}
+
 .header-field:disabled {
-  background-color: #a2a4a7;
+  background-color: #f1f5f7;
+}
+
+.header-field:disabled::placeholder {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .close-field-btn {
