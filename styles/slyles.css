@@ -554,3 +554,27 @@ body {
   color: #c5c5c5;
   border: 2px solid #c5c5c5;
 }
+
+/* Авторизированная страница */
+.profile-btn {
+  width: 194px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f1f5f7;
+  text-align: end;
+  background: url("../images/icons/profile-icon.svg") no-repeat 17px 50% transparent;
+}
+
+.profile-btn:hover {
+  opacity: 0.5;
+}
+
+.profile-btn:focus {
+  outline: 1px solid #f1f5f7;
+  outline-offset: 3px;
+}
+
+.profile-btn:active {
+  opacity: 0.3;
+}
