@@ -674,3 +674,13 @@ body {
 .unlogin-link:active {
   opacity: 0.3;
 }
+
+.nav-header-bg {
+  background-color: #3d546f;
+}
+
+.nav-header {
+display: flex;
+width: 1170px;
+margin: 0 auto;
+}
