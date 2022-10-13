@@ -557,6 +557,7 @@ body {
 
 /* Авторизированная страница */
 .profile-btn {
+  display: none;
   width: 194px;
   font-weight: 400;
   font-size: 16px;
@@ -652,4 +653,24 @@ body {
 .profile-popover-link-unlogin:active {
   color: #c5c5c5;
   border: 2px solid #c5c5c5;
+}
+
+.unlogin-link {
+  display: none;
+  width: 16px;
+  margin-left: auto;
+  background: url("../images/icons/unlogin-icon.svg") no-repeat 50% transparent;
+}
+
+.unlogin-link:hover {
+  opacity: 0.5;
+}
+
+.unlogin-link:focus {
+  outline: 1px solid #f1f5f7;
+  outline-offset: 3px;
+}
+
+.unlogin-link:active {
+  opacity: 0.3;
 }
