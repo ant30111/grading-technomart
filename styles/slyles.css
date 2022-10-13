@@ -319,12 +319,18 @@ body {
   opacity: 0.3;
 }
 
+.login-btn:focus + .login-popover-container,
+.login-btn:active + .login-popover-container {
+  display: block;
+}
+
 /* Поповер логина */
 .login-popover-container {
   position: absolute;
   top: 12px;
   right: 0;
   z-index: 1;
+  display: none;
   width: 360px;
   padding: 22px 29px 35px 31px;
   background-color: #ffffff;
@@ -431,10 +437,10 @@ body {
 .profile-popover-wrapper {
   position: relative;
   display: flex;
-  gap: 13px;
+  gap: 23px;
   margin-bottom: 38px;
   align-items: center;
-  padding-left: 30px;
+  padding-left: 33px;
 }
 
 .control-mark-popover {
@@ -493,4 +499,58 @@ body {
 
 .forgot-link-popover:active {
   opacity: 0.3;
+}
+
+.btn-popover-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.link-popover {
+  width: 145px;
+  padding: 11px 0;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.login-link-popover {
+  padding-left: 20px;
+  color: #ffffff;
+  background: url("../images/icons/login-icon.svg") no-repeat 25px 50% #63a63e;
+}
+
+.login-link-popover:hover {
+  background-color: #5fbb2d;
+}
+
+.login-link-popover:focus {
+  outline: 1px solid #63a63e;
+  outline-offset: 2px;
+}
+
+.login-link-popover:active {
+  background-color: #518534;
+}
+
+.auth-link-popover {
+  color: #32425c;
+  border: 2px solid #63a63e;
+}
+
+.auth-link-popover:hover {
+  border: 2px solid #3d546f;
+}
+
+.auth-link-popover:focus {
+  outline: 1px solid #63a63e;
+  outline-offset: 2px;
+}
+
+.auth-link-popover:active {
+  color: #c5c5c5;
+  border: 2px solid #c5c5c5;
 }
