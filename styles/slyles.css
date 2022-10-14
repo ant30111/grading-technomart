@@ -684,3 +684,34 @@ display: flex;
 width: 1170px;
 margin: 0 auto;
 }
+
+.nav-list {
+  display: flex;
+  gap: 0 54px;
+  flex-wrap: wrap;
+  max-width: 817px;
+ }
+
+.nav-link {
+  width: 100%;
+  padding: 21px 0 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #c5c5c5;
+  background-color: #32425c;
+}
+
+.nav-link:focus {
+ outline: 1px solid #c5c5c5;
+ outline-offset: -1px;
+}
+
+.nav-link:active {
+  color: #ffffff;
+  background-color: #32425c;
+}
