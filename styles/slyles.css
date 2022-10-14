@@ -681,6 +681,7 @@ body {
 
 .nav-header {
 display: flex;
+align-items: center;
 width: 1170px;
 margin: 0 auto;
 }
@@ -714,4 +715,57 @@ margin: 0 auto;
 .nav-link:active {
   color: #ffffff;
   background-color: #32425c;
+}
+
+.bookmark-link {
+  margin: 0 27px 0 95px;
+  width: 13px;
+  height: 18px;
+  background: url("../images/icons/bookmark-icon.svg") no-repeat 50% transparent;
+}
+
+.cart-link {
+  width: 18px;
+  height: 18px;
+  background: url("../images/icons/cart-icon.svg") no-repeat 50% transparent;
+}
+
+.menu-icon-link:hover {
+  opacity: 0.5;
+}
+
+.menu-icon-link:focus {
+  outline: 1px solid rgba(255, 255, 255, 0.6);
+  outline-offset: 2px;
+}
+
+.menu-icon-link:active {
+  opacity: 0.3;
+}
+
+.order-link {
+  width: 170px;
+  padding: 12px 0;
+  margin-left: auto;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: #63a63e;
+  border-radius: 2px;
+}
+
+.order-link:hover {
+  background-color: #5fbb2d;
+}
+
+.order-link:focus {
+  outline: 1px solid #63a63e;
+  outline-offset: 2px;
+}
+
+.order-link:active {
+  background-color: #518534;
 }
