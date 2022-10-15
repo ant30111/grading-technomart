@@ -916,3 +916,23 @@ body {
 .banners-services-item-delivery {
   background: url("../images/icons/delivery-icon.svg") no-repeat 245px 50% #ffbf47
 }
+
+
+/* Каталог */
+.catalog {
+  width: 1170px;
+  margin: 0 auto 53px;
+}
+
+.catalog-title {
+  margin-bottom: 26px;
+  font-family: "Fira sans", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #293449;
+}
+
+.catalog-container {
+  display: flex;
+}

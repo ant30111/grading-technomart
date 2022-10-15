@@ -15,6 +15,7 @@
   <body>
     <main>
 
+
       <!-- Хедер -->
       <header class="page-header">
         <div class="info-header">
@@ -134,6 +135,7 @@
         </div>
       </header>
 
+
       <!-- Баннеры услуг -->
       <section class="banners-services">
         <h2 class="visually-hidden">Баннеры услуг</h2>
@@ -227,6 +229,39 @@
         </ul>
       </section>
 
+
+      <!-- Каталог -->
+      <section class="catalog">
+        <h2 class="title catalog-title">Перфораторы</h2>
+        <div class="catalog-container">
+          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+
+            <!-- Rande bar -->
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-group-legend">Цена</legend>
+              <div class="range">
+                <div class="range-scale">
+                  <div class="range-bar" style="left: 0; width: 138px;">
+                    <button class="btn range-toggle range-toggle-min" type="button">
+                      <span class="visually-hidden">Изменить минимальную цену</span>
+                    </button>
+                    <button class="btn range-toggle range-toggle-max" type="button">
+                      <span class="visually-hidden">Изменить максимальную цену</span>
+                    </button>
+                  </div>
+                  <div class="range-inputs-wrapper">
+                    <label class="visually-hidden" for="min-price">Минимальная цена</label>
+                    <input class="field range-field" type="number" name="min-price" id="min-price" placeholder="0">
+                    <span>-</span>
+                    <label class="visually-hidden" for="max-price">Максимальная цена</label>
+                    <input class="field range-field" type="number" name="max-price" id="max-price" placeholder="30000">
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
 
