@@ -106,6 +106,10 @@ body {
 
 
 /* Хедер */
+.page-header {
+  margin-bottom: 52px;
+}
+
 .info-header {
   display: flex;
   width: 1170px;
@@ -806,3 +810,6 @@ body {
   height: 18px;
   background: url("../images/icons/cart-icon.svg") no-repeat 50% transparent;
 }
+
+
+/* Баннеры услуг */
