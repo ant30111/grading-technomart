@@ -936,3 +936,74 @@ body {
 .catalog-container {
   display: flex;
 }
+
+.catalog-filter {
+  width: 246px;
+  padding-right: 26px;
+  margin-right: 53px;
+}
+
+.catalog-filter-group {
+  margin: 0;
+  padding: 0 26px 0 0;
+  border: none;
+}
+
+.catalog-filter-group-range {
+  margin-bottom: 30px;
+  padding-bottom: 9px;
+}
+
+.catalog-filter-group-legend {
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.range {
+  margin-top: 9px;
+}
+
+.range-wrapper {
+  width: 220px;
+  margin-bottom: 6px;
+  padding: 19px 20px;
+  background-color: #f7f3ec;
+}
+
+.range-scale {
+  position: relative;
+  height: 2px;
+  background-color: #3d546f;
+}
+
+.range-bar {
+  height: 2px;
+  background-color: #5fbb2d;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #3d546f;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.range-toggle-min {
+  top: -10px;
+}
+
+.range-toggle-max {
+  left: 120px;
+  top: -10px;
+}
+
+.range-toggle:hover {
+  background-color: #518534;
+}
+
+.range-toggle:active {
+  background-color: #5fbb2d;
+}
