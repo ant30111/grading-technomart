@@ -969,6 +969,7 @@ body {
   margin-bottom: 6px;
   padding: 19px 20px;
   background-color: #f7f3ec;
+  border-radius: 2px;
 }
 
 .range-scale {
@@ -1006,4 +1007,59 @@ body {
 
 .range-toggle:active {
   background-color: #5fbb2d;
+}
+
+.range-inputs-wrapper {
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+
+.range-field {
+  width: 95px;
+  padding: 10px 0 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #293449;
+  background-color: #f7f3ec;
+  border-radius: 2px;
+  -moz-appearance: textfield;
+}
+
+.range-field::-webkit-outer-spin-button,
+.range-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.range-inputs-wrapper::before {
+  position: absolute;
+  top: 48%;
+  left: 48%;
+  width: 8px;
+  height: 1px;
+  background-color: #293449;
+  content: "";
+}
+
+.range-field:hover {
+  outline: 1px solid #63a63e;
+}
+
+.range-field:focus {
+  outline: 1px solid #ffbf47;
+}
+
+.range-field:invalid {
+  outline: 1px solid #ee3643;
+}
+
+.range-field:invalid:hover {
+  outline: 2px solid #ee3643;
+}
+
+.range-field:disabled {
+  outline: 1px solid #c5c5c5;
+  background-color: #f1f5f7;
 }
