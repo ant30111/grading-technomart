@@ -106,7 +106,7 @@ body {
 
 /* Хедер */
 .page-header {
-  margin-bottom: 52px;
+  margin-bottom: 54px;
 }
 
 .info-header {
@@ -753,6 +753,7 @@ body {
 .banner-title {
   max-width: 250px;
   margin-bottom: 57px;
+  font-size: 24px;
 }
 
 .banner-link {
@@ -793,7 +794,7 @@ body {
 }
 
 .banners-services-item-technique {
-  background: url("../images/icons/technique-icon.svg") no-repeat 268px 50% #dc91d8;
+  background: url("../images/icons/technique-icon.svg") no-repeat 243px 50% #dc91d8;
 }
 
 .banners-services-item-slider {
@@ -804,9 +805,8 @@ body {
 }
 
 .slide-1 {
-  /* display: none; */
   height: 100%;
-  padding: 53px 2px 22px 51px;
+  padding: 51px 8px 22px 51px;
   background-image: url("../images/slide-1.jpg");
 }
 
@@ -858,7 +858,7 @@ body {
 }
 
 .slider-btn-next {
-  right: 18px;
+  right: 11px;
   transform: rotate(180deg);
 }
 
