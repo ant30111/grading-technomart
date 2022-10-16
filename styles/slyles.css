@@ -1168,3 +1168,25 @@ body {
   border-radius: 50%;
   content: "";
 }
+
+.catalog-filter-btn {
+  width: 220px;
+  padding: 11px 0;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #32425c;
+  background-color: transparent;
+  border: 2px solid #3d546f;
+  border-radius: 2px;
+}
+
+.catalog-filter-btn:hover {
+  border: 2px solid #63a63e;
+}
+
+.catalog-filter-btn:active {
+  color: #c5c5c5;
+  border: 2px solid #c5c5c5;
+}
