@@ -309,7 +309,8 @@
               <ul class="list catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
-                    <input class="visually-hidden catalog-field" type="radio" name="питание" value="аккумуляторные" checked>
+                    <input class="visually-hidden catalog-field" type="radio" name="питание" value="аккумуляторные"
+                      checked>
                     <span class="control-span control-mark control-mark-radio"></span>
                     <span class="control-span control-label">Аккумуляторные</span>
                   </label>
@@ -326,6 +327,19 @@
 
             <button class="btn catalog-filter-btn" type="submit">Показать</button>
           </form>
+
+          <div class="catalog-right-column">
+            <select class="select-control" name="Сортировка" aria-label="Сортировка">
+              <option value="popular">Популярные</option>
+              <option value="cheap">Дешевле</option>
+              <option value="expensive">Дороже</option>
+            </select>
+            <svg class="select-arrow" width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 0.903931L9.41421 2.31814L4.70711 7.02525L0 2.31814L1.41421 0.903931L4.70711 4.19682L8 0.903931Z" />
+            </svg>
+
+          </div>
         </div>
       </section>
     </main>

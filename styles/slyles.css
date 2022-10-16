@@ -397,7 +397,8 @@ body {
 }
 
 .popover-field:focus {
-  border: 1px solid #ffbf47;
+  border: 1px solid #63a63e;
+  outline: 1px solid #ffbf47;
 }
 
 .popover-field:invalid {
@@ -1049,7 +1050,7 @@ body {
 
 .range-field:focus {
   outline: 1px solid #ffbf47;
-}
+ }
 
 .range-field:invalid {
   outline: 1px solid #ee3643;
@@ -1189,4 +1190,45 @@ body {
 .catalog-filter-btn:active {
   color: #c5c5c5;
   border: 2px solid #c5c5c5;
+}
+
+.catalog-right-column {
+  width: 1200px;
+}
+
+/* Селект */
+.select-control {
+  position: relative;
+  width: 280px;
+  padding: 8px 0 8px 16px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #3d546f;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+.select-arrow {
+  position: absolute;
+  top: 941px;
+  left: 701px;
+  z-index: 2;
+  fill: #3d546f;
+}
+
+.select-control:hover {
+  border: 1px solid #63a63e;
+}
+
+.select-control:focus {
+  border: 1px solid #63a63e;
+  outline: 1px solid #ffbf47;
+}
+
+.select-control:focus + .select-arrow {
+  fill: #63a63e;
 }
