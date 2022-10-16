@@ -1063,3 +1063,72 @@ body {
   outline: 1px solid #c5c5c5;
   background-color: #f1f5f7;
 }
+
+/* Чекбоксы */
+.catalog-filter-group-checkbox {
+  width: 264px;
+  margin-bottom: 34px;
+}
+
+.catalog-filter-list {
+  margin-top: 17px;
+}
+
+.catalog-filter-item:not(:last-child) {
+  margin-bottom: 22px;
+}
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+
+.control-mark {
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #3d546f;
+  border-radius: 2px;
+}
+
+.catalog-field[type="checkbox"]:checked + .control-mark-checkbox::after {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  width: 9px;
+  height: 7px;
+  background: url("../images/icons/mark-login-popover-icon.svg") no-repeat;
+  content: "";
+}
+
+.control-mark:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.catalog-field:focus + .control-mark::before {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #3d546f;
+  content: "";
+}
+
+.control-mark:active {
+  opacity: 0.4;
+}
+
+.catalog-field:disabled ~ .control-span {
+  opacity: 0.2;
+}
+
+.control-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
