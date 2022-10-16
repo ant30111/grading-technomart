@@ -1070,7 +1070,7 @@ body {
   margin-bottom: 34px;
 }
 
-.catalog-filter-list {
+.catalog-filter-list-checkbox {
   margin-top: 17px;
 }
 
@@ -1131,4 +1131,40 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+}
+
+/* Радиокнопки */
+.catalog-filter-group-radio {
+  width: 264px;
+  margin-bottom: 45px;
+}
+
+.catalog-filter-list-radio {
+  margin-top: 20px;
+}
+
+.control-mark-radio {
+  border-radius: 50%;
+}
+
+.catalog-field[type="radio"]:checked + .control-mark-radio::after {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 8px;
+  height: 8px;
+  background-color: #3d546f;
+  border-radius: 50%;
+  content: "";
+}
+
+.catalog-field[type="radio"]:focus + .control-mark-radio::before {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #3d546f;
+  border-radius: 50%;
+  content: "";
 }

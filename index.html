@@ -264,7 +264,7 @@
             <!-- Чекбоксы -->
             <fieldset class="catalog-filter-group catalog-filter-group-checkbox">
               <legend class="catalog-filter-group-legend">Производители</legend>
-              <ul class="list catalog-filter-list">
+              <ul class="list catalog-filter-list-checkbox">
                 <li class="catalog-filter-item">
                   <label class="control">
                     <input class="visually-hidden catalog-field" type="checkbox" name="BOSCH" checked>
@@ -303,6 +303,26 @@
               </ul>
             </fieldset>
 
+            <!-- Радиокнопки -->
+            <fieldset class="catalog-filter-group catalog-filter-group-radio">
+              <legend class="catalog-filter-group-legend">Питание</legend>
+              <ul class="list catalog-filter-list-radio">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden catalog-field" type="radio" name="питание" value="аккумуляторные" checked>
+                    <span class="control-span control-mark control-mark-radio"></span>
+                    <span class="control-span control-label">Аккумуляторные</span>
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="visually-hidden catalog-field" type="radio" name="питание" value="cетевые">
+                    <span class="control-span control-mark control-mark-radio"></span>
+                    <span class="control-span control-label">Сетевые</span>
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
           </form>
         </div>
       </section>
