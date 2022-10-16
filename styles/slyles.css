@@ -1071,11 +1071,11 @@ body {
 }
 
 .catalog-filter-list-checkbox {
-  margin-top: 17px;
+  margin-top: 9px;
 }
 
 .catalog-filter-item:not(:last-child) {
-  margin-bottom: 22px;
+  margin-bottom: 9px;
 }
 
 .control {
@@ -1086,8 +1086,8 @@ body {
 
 .control-mark {
   position: absolute;
-  left: 0;
-  bottom: 3px;
+  left: 3px;
+  bottom: 0;
   width: 18px;
   height: 18px;
   border: 2px solid #3d546f;
@@ -1096,7 +1096,7 @@ body {
 
 .catalog-field[type="checkbox"]:checked + .control-mark-checkbox::after {
   position: absolute;
-  top: 4px;
+  top: 2px;
   left: 2px;
   width: 9px;
   height: 7px;
@@ -1139,8 +1139,8 @@ body {
   margin-bottom: 45px;
 }
 
-.catalog-filter-list-radio {
-  margin-top: 20px;
+.catalog-filter-list {
+  margin-top: 9px;
 }
 
 .control-mark-radio {
