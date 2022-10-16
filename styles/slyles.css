@@ -1193,18 +1193,21 @@ body {
 }
 
 .catalog-right-column {
+  position: relative;
   width: 1200px;
+  margin-top: 32px;
 }
 
 /* Селект */
 .select-control {
-  position: relative;
   width: 280px;
+  margin-bottom: 31px;
   padding: 8px 0 8px 16px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  background-color: transparent;
   border: 1px solid #3d546f;
   border-radius: 2px;
   outline: none;
@@ -1214,8 +1217,8 @@ body {
 
 .select-arrow {
   position: absolute;
-  top: 941px;
-  left: 701px;
+  top: 16px;
+  left: 258px;
   z-index: 2;
   fill: #3d546f;
 }
