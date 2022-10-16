@@ -72,6 +72,7 @@ body {
 }
 
 .btn {
+  display: block;
   padding: 0;
   font: inherit;
   border: none;
@@ -1097,7 +1098,7 @@ body {
 
 .catalog-field[type="checkbox"]:checked + .control-mark-checkbox::after {
   position: absolute;
-  top: 2px;
+  top: 3px;
   left: 2px;
   width: 9px;
   height: 7px;
@@ -1234,4 +1235,68 @@ body {
 
 .select-control:focus + .select-arrow {
   fill: #63a63e;
+}
+
+/* Список товаров */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 29px 30px;
+  margin-bottom: 30px;
+}
+
+.product-card {
+  position: relative;
+  padding: 27px 27px 25px;
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+}
+
+.product-card-image {
+  margin-bottom: 14px;
+}
+
+.product-card-title {
+  margin-bottom: 52px;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #293449;
+}
+
+.old-price {
+  position: absolute;
+  left: 105px;
+  bottom: 137px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #a9a9a9;
+}
+
+.price-btn {
+  width: 140px;
+  margin: 0 auto;
+  padding: 11px 0;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.price-btn-bg {
+  position: absolute;
+  bottom: 83px;
+  left: 60px;
+  z-index: -1;
+  fill: #ee3643;
+}
+
+.price-btn:hover + .price-btn-bg {
+  fill: #ca2c37;
+}
+
+.price-btn:active + .price-btn-bg {
+  fill: #ba2732;
 }
