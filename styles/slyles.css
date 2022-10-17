@@ -1440,3 +1440,42 @@ body {
 .catalog-pagination-btn:active {
   background-color: #ba2732;
 }
+
+
+/* Сервисы */
+.services-bg {
+  min-width: 1170px;
+  padding: 52px 0;
+  background-color: #f4f7f9;
+}
+
+.services-content {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.services-title {
+  max-width: 428px;
+  margin: 0 auto 30px;
+  font-family: "Fira sans", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #293449;
+}
+
+.services-hero {
+  max-width: 556px;
+  margin: 0 auto 65px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #293449;
+}
+
+.services-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
