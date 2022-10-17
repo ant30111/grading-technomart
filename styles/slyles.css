@@ -167,6 +167,7 @@ body {
 }
 
 .middle-header-bg {
+  min-width: 1170px;
   background-color: #293449;
 }
 
@@ -619,6 +620,7 @@ body {
 }
 
 .nav-header-bg {
+  min-width: 1170px;
   background-color: #3d546f;
 }
 
