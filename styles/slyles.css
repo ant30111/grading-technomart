@@ -1382,4 +1382,59 @@ body {
 }
 
 /* Пагинация */
+.catalog-pagination-wrapper {
+  display: flex;
+  max-width: 436px;
+  margin: 0 auto;
+}
 
+.catalog-pagination-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  max-width: 224px;
+  margin-right: 17px;
+}
+
+.catalog-pagination-link {
+  min-width: 50px;
+  padding: 15px 20px 14px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  background-color: #3d546f;
+  border-radius: 2px;
+}
+
+.catalog-pagination-link-current {
+  color: #3d546f;
+  background-color: #ffffff;
+}
+
+.catalog-pagination-link:hover:not(.catalog-pagination-link-current) {
+  opacity: 0.5;
+}
+
+.catalog-pagination-link:active:not(.catalog-pagination-link-current) {
+  opacity: 0.3;
+}
+
+.catalog-pagination-btn {
+  max-width: 195px;
+  padding: 13px 37px 14px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ee3643;
+  border-radius: 2px;
+}
+
+.catalog-pagination-btn:hover {
+  background-color: #ca2c37;
+}
+
+.catalog-pagination-btn:active {
+  background-color: #ba2732;
+}
