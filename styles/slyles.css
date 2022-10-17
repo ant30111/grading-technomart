@@ -1051,7 +1051,7 @@ body {
 
 .range-field:focus {
   outline: 1px solid #ffbf47;
- }
+}
 
 .range-field:invalid {
   outline: 1px solid #ee3643;
@@ -1247,9 +1247,33 @@ body {
 
 .product-card {
   position: relative;
+  min-height: 380px;
   padding: 27px 27px 25px;
   border: 1px solid #eaeaea;
   border-radius: 2px;
+}
+
+.product-card-new::before {
+  position: absolute;
+  right: -31px;
+  top: 0;
+  width: 100px;
+  height: 67px;
+  background: url("../images/icons/new-sticker.png") no-repeat;
+  content: "";
+}
+
+.product-card-new:nth-child(2n)::before {
+  display: none;
+}
+
+.product-card:hover .cart-btn,
+.product-card:hover .bookmark-btn {
+  display: block;
+}
+
+.product-card:hover .product-card-image {
+  opacity: 0.1;
 }
 
 .product-card-image {
@@ -1257,7 +1281,7 @@ body {
 }
 
 .product-card-title {
-  margin-bottom: 52px;
+  margin-bottom: 11px;
   font-size: 20px;
   line-height: 26px;
   text-align: center;
@@ -1265,16 +1289,19 @@ body {
 }
 
 .old-price {
-  position: absolute;
-  left: 105px;
-  bottom: 137px;
+  display: block;
+  margin-bottom: 49px;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 2px;
+  text-align: center;
   color: #a9a9a9;
 }
 
 .price-btn {
+  position: absolute;
+  bottom: 6%;
+  left: 64px;
   width: 140px;
   margin: 0 auto;
   padding: 11px 0;
@@ -1287,8 +1314,8 @@ body {
 
 .price-btn-bg {
   position: absolute;
-  bottom: 83px;
-  left: 60px;
+  bottom: 6%;
+  left: 64px;
   z-index: -1;
   fill: #ee3643;
 }
@@ -1299,4 +1326,53 @@ body {
 
 .price-btn:active + .price-btn-bg {
   fill: #ba2732;
+}
+
+.cart-btn {
+  position: absolute;
+  left: 72px;
+  top: 66px;
+  display: none;
+  width: 135px;
+  padding: 11px 24px 11px 41px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: url("../images/icons/product-cart-btn-icon.svg") no-repeat 23px 50% #63a63e;
+  border-radius: 2px;
+}
+
+.cart-btn:hover {
+  background-color: #5fbb2d;
+}
+
+.cart-btn:active {
+  background-color: #518534;
+}
+
+.bookmark-btn {
+  position: absolute;
+  left: 72px;
+  top: 117px;
+  display: none;
+  width: 135px;
+  padding: 11px 0;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #32425c;
+  background-color: #ffffff;
+  border: 2px solid #63a63e;
+}
+
+.bookmark-btn:hover {
+  border: 2px solid #3d546f;
+}
+
+.bookmark-btn:active {
+  color: #c5c5c5;
+  border: 2px solid #c5c5c5;
 }
