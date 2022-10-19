@@ -37,6 +37,7 @@
 }
 
 img {
+  display: block;
   max-width: 100%;
   object-fit: contain;
 }
@@ -1587,4 +1588,56 @@ body {
 
 
 /* Футер */
+.footer-bg {
+  min-width: 1170px;
+  background-color: #32425c;
+}
 
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+  padding-bottom: 34px;
+}
+
+.footer-content-left-column {
+  max-width: 449px;
+}
+
+.footer-logo-link {
+  max-width: 225px;
+  margin-bottom: 21px;
+}
+
+.footer-logo-link:hover {
+  opacity: 0.7;
+}
+
+.footer-logo-link:active {
+  opacity: 0.5;
+}
+
+.footer-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f3f7f9;
+ }
+
+ .footer-tel-link {
+  max-width: 150px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f3f7f9;
+ }
+
+ .footer-tel-link:hover {
+  opacity: 0.5;
+ }
+
+ .footer-tel-link:active {
+  opacity: 0.3;
+ }
