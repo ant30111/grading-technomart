@@ -1624,20 +1624,132 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #f3f7f9;
- }
+}
 
- .footer-tel-link {
+.footer-tel-link {
   max-width: 150px;
+  margin-bottom: 23px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #f3f7f9;
- }
+}
 
- .footer-tel-link:hover {
+.footer-tel-link:hover {
   opacity: 0.5;
- }
+}
 
- .footer-tel-link:active {
+.footer-tel-link:active {
   opacity: 0.3;
- }
+}
+
+.social-list {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.social-link-pinterest {
+  background: url("../images/icons/social-pinterest-icon.svg") no-repeat 53% rgba(255, 255, 255, 0.1);
+}
+
+.social-link-vk {
+  background: url("../images/icons/social-vk-icon.svg") no-repeat 51% rgba(255, 255, 255, 0.1);
+}
+
+.social-link-vsco {
+  background: url("../images/icons/social-vsco-icon.svg") no-repeat 51% rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover {
+  background-color: #293449;
+}
+
+.social-link:active {
+  opacity: 0.5;
+  ;
+}
+
+.footer-content-right-column {
+  margin-left: auto;
+}
+
+.footer-feedback {
+  display: block;
+  margin-top: 29px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.email-link {
+  color: #ffd180;
+}
+
+.email-link:hover {
+  color: #ffbf47;
+}
+
+.email-link:active {
+  opacity: 0.5;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-field {
+  width: 220px;
+  padding: 10px 16px 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  border: 1px solid #63a63e;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.footer-field:hover {
+  outline: 1px solid #63a63e;
+}
+
+.footer-field:focus {
+  outline: 1px solid #ffbf47;
+}
+
+.footer-field:invalid {
+  border: 1px solid #ee3643;
+}
+
+.footer-field:invalid:hover {
+  border: 1px solid #ee3643;
+  outline: 1px solid #ee3643;
+}
+
+.footer-field:disabled {
+  background-color: rgba(241, 245, 247, 0.5);
+  border: 1px solid #c5c5c5;
+}
+
+.footer-field-btn {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icons/footer-cart-icon.svg") no-repeat 50% #63a63e;
+  border-radius: 2px;
+}
+
+.footer-field-btn:hover {
+  background-color: #5fbb2d;
+}
+
+.footer-field-btn:active {
+  background-color: #518534;
+}
