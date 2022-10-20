@@ -1753,3 +1753,41 @@ body {
 .footer-field-btn:active {
   background-color: #518534;
 }
+
+.copyright {
+  min-width: 1170px;
+  background-color: #293449;
+}
+
+.copyright-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 20px 0 22px;
+}
+
+.copyright-text {
+  max-width: 449px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.copyright-text-right {
+  max-width: 250px;
+}
+
+.copyright-link {
+  display: inline;
+  color: #ffd180;
+}
+
+.copyright-link:hover {
+  color: #ffbf47;
+}
+
+.copyright-link:active {
+  opacity: 0.5;
+}
