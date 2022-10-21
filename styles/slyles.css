@@ -501,17 +501,17 @@ body {
   border-radius: 2px;
 }
 
-.login-link-popover {
+.login-btn-popover {
   padding-left: 20px;
   color: #ffffff;
   background: url("../images/icons/login-icon.svg") no-repeat 25px 50% #63a63e;
 }
 
-.login-link-popover:hover {
+.login-btn-popover:hover {
   background-color: #5fbb2d;
 }
 
-.login-link-popover:active {
+.login-btn-popover:active {
   background-color: #518534;
 }
 
@@ -1500,21 +1500,20 @@ body {
   display: block;
   max-width: 370px;
   padding: 167px 44px 44px 26px;
-  background-color: #ffffff;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   border-radius: 2px;
 }
 
 .services-item-delivery {
-  background: url("../images/icons/services-delivery-icon.svg") no-repeat 26px 45px;
+  background: url("../images/icons/services-delivery-icon.svg") no-repeat 26px 45px #ffffff;
 }
 
 .services-item-warranty {
-  background: url("../images/icons/services-warranty-icon.svg") no-repeat 26px 38px;
+  background: url("../images/icons/services-warranty-icon.svg") no-repeat 26px 38px #ffffff;
 }
 
 .services-item-credit {
-  background: url("../images/icons/services-credit-icon.svg") no-repeat 31px 38px;
+  background: url("../images/icons/services-credit-icon.svg") no-repeat 31px 38px #ffffff;
 }
 
 .services-item-title {
