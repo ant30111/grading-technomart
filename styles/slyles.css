@@ -749,7 +749,7 @@ body {
 }
 
 .banners-services-item {
-  padding: 20px 0 33px 25px;
+  padding: 20px 0 33px 23px;
   text-transform: uppercase;
   color: #ffffff;
   border-radius: 2px;
@@ -757,13 +757,13 @@ body {
 
 .banner-title {
   max-width: 250px;
-  margin-bottom: 57px;
+  margin-bottom: 55px;
   font-size: 24px;
 }
 
 .banner-link {
   width: 180px;
-  padding: 12px 1px 10px 33px;
+  padding: 11px 1px 10px 30px;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 2px;
@@ -811,14 +811,14 @@ body {
 
 .slide-1 {
   height: 100%;
-  padding: 51px 8px 22px 51px;
+  padding: 51px 8px 22px 49px;
   background-image: url("../images/slide-1.jpg");
 }
 
 .slide-2 {
   display: none;
   height: 100%;
-  padding: 53px 2px 22px 51px;
+  padding: 53px 2px 22px 49px;
   background-image: url("../images/slide-2.jpg");
 }
 
@@ -870,6 +870,7 @@ body {
 .slider-link {
   width: 195px;
   padding: 13px 0 14px;
+  margin-bottom: 18px;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 2px;
@@ -891,7 +892,7 @@ body {
   align-items: center;
   gap: 4px 8px;
   flex-wrap: wrap;
-  max-width: 80px;
+  max-width: 83px;
   margin: 0 auto;
 }
 
@@ -940,6 +941,7 @@ body {
 
 .catalog-container {
   display: flex;
+  margin-left: -5px;
 }
 
 .catalog-filter {
@@ -1091,8 +1093,8 @@ body {
 
 .control-mark {
   position: absolute;
-  left: 3px;
-  bottom: 0;
+  left: 4px;
+  bottom: 3px;
   width: 18px;
   height: 18px;
   border: 2px solid #3d546f;
@@ -1141,7 +1143,7 @@ body {
 /* Радиокнопки */
 .catalog-filter-group-radio {
   width: 264px;
-  margin-bottom: 45px;
+  margin-bottom: 46px;
 }
 
 .catalog-filter-list {
@@ -1149,6 +1151,7 @@ body {
 }
 
 .control-mark-radio {
+  top: 12px;
   border-radius: 50%;
 }
 
@@ -1246,13 +1249,13 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 29px 30px;
-  margin-bottom: 30px;
+  margin-bottom: 31px;
 }
 
 .product-card {
   position: relative;
   min-height: 380px;
-  padding: 27px 27px 25px;
+  padding: 27px 28px 25px;
   border: 1px solid #eaeaea;
   border-radius: 2px;
 }
@@ -1285,7 +1288,7 @@ body {
 }
 
 .product-card-image {
-  margin-bottom: 7px;
+  margin-bottom: 14px;
 }
 
 .product-card-title {
@@ -1452,7 +1455,7 @@ body {
 }
 
 .services-content {
-  width: 1170px;
+  width: 1178px;
   margin: 0 auto;
 }
 
@@ -1708,7 +1711,7 @@ body {
 
 .footer-field {
   width: 220px;
-  padding: 10px 16px 10px;
+  padding: 12px 14px 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
