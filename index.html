@@ -13,536 +13,539 @@
   </head>
 
   <body>
-    <main>
+    <main class="main-index">
+      <div class="main-content">
 
 
-      <!-- Хедер -->
-      <header class="page-header">
-        <div class="info-header">
-          <h1 class="title page-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-          <address class="info-header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-          <a class="link info-phone-header-link" href="tel:+78125550555">+7 (812) 555-05-55</a>
-        </div>
+        <!-- Хедер -->
+        <header class="page-header">
+          <div class="info-header">
+            <h1 class="title page-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+            <address class="info-header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+            <a class="link info-phone-header-link" href="tel:+78125550555">+7 (812) 555-05-55</a>
+          </div>
 
-        <div class="middle-header-bg">
-          <div class="middle-header-content">
-            <a class="link page-logo" href="#">
-              <img src="./images/logo.svg" alt="Логотип сайта." width="216" height="50">
-            </a>
+          <div class="middle-header-bg">
+            <div class="middle-header-content">
+              <a class="link page-logo" href="#">
+                <img src="./images/logo.svg" alt="Логотип сайта." width="216" height="50">
+              </a>
 
-            <form class="header-form" action="https://echo.htmlacademy.ru/" method="post">
-              <label class="visually-hidden" for="search-text">Текстовое поле для поиска</label>
-              <input class="field header-field" type="text" id="search-text" placeholder="Поиск:">
-              <button class="btn close-field-btn" type="button">
-                <span class="visually-hidden">Сбросить текст поиска</span>
-              </button>
-            </form>
-
-            <button class="btn login-btn" type="button">Войти</button>
-
-            <!-- Поповер логина -->
-            <div class="login-popover-container">
-              <h2 class="title login-popover-title">Личный кабинет</h2>
-              <button class="btn close-login-popover-btn" type="button">
-                <span class="visually-hidden">Закрыть форму логина</span>
-              </button>
-
-              <form action="https://echo.htmlacademy.ru/" method="post">
-                <label class="visually-hidden" for="login-text-popover">Логин</label>
-                <input class="field popover-field" type="text" id="login-text-popover" placeholder="Логин">
-                <label class="visually-hidden" for="password-text-popover">Пароль</label>
-                <input class="field popover-field" type="password" id="password-text-popover" placeholder="Пароль">
-                <div class="profile-popover-wrapper">
-                  <label>
-                    <input class="visually-hidden control-popover-input" type="checkbox" name="Запомнить меня" checked>
-                    <span class="control-mark-popover"></span>
-                    <span class="control-label-popover">Запомнить меня</span>
-                  </label>
-                  <a class="link forgot-link-popover" href="#">Забыл пароль</a>
-                </div>
-                <div class="btn-popover-wrapper">
-                  <a class="link link-popover login-link-popover" href="#">войти</a>
-                  <a class="link link-popover auth-link-popover" href="#">регистрация</a>
-                </div>
+              <form class="header-form" action="https://echo.htmlacademy.ru/" method="post">
+                <label class="visually-hidden" for="search-text">Текстовое поле для поиска</label>
+                <input class="field header-field" type="text" id="search-text" placeholder="Поиск:">
+                <button class="btn close-field-btn" type="button">
+                  <span class="visually-hidden">Сбросить текст поиска</span>
+                </button>
               </form>
-            </div>
 
-            <!-- Авторизированная страница -->
-            <button class="btn profile-btn" type="button">Равшан Джамшутович</button>
+              <button class="btn login-btn" type="button">Войти</button>
 
-            <!-- Поповер профиля -->
-            <div class="profile-popover-container">
-              <h2 class="title profile-popover-title">Здравствуйте,<br>
-                Равшан Джамшутович</h2>
-              <button class="btn close-login-popover-btn" type="button">
-                <span class="visually-hidden">Закрыть форму логина</span>
-              </button>
-              <a class="link profile-popover-link" href="#">мои заказы</a>
-              <a class="link profile-popover-link" href="#">личный кабинет</a>
-              <a class="link profile-popover-link-unlogin" href="#">выйти</a>
-            </div>
-
-            <a class="link unlogin-link" href="#">
-              <span class="visually-hidden">Выход из профиля</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="nav-header-bg">
-          <nav class="nav-header">
-            <ul class="list nav-list">
-              <li class="nav-item">
-                <a class="link nav-link">Главная</a>
-              </li>
-              <li class="nav-item">
-                <a class="link nav-link" href="#">Компания</a>
-              </li>
-              <li class="nav-item">
-                <a class="link nav-link" href="#">Каталог</a>
-              </li>
-              <li class="nav-item">
-                <a class="link nav-link" href="#">Новости</a>
-              </li>
-              <li class="nav-item">
-                <a class="link nav-link" href="#">Спецпредложения</a>
-              </li>
-              <li class="nav-item">
-                <a class="link nav-link" href="#">Доставка</a>
-              </li>
-              <li class="nav-item">
-                <a class="link nav-link" href="#">Контакты</a>
-              </li>
-            </ul>
-
-            <a class="link menu-icon-link bookmark-link" href="#">
-              <span class="visually-hidden">Избранное</span>
-            </a>
-            <a class="link menu-icon-link cart-link" href="#">
-              <span class="visually-hidden">Корзина</span>
-            </a>
-
-            <a class="link menu-icon-link bookmark-link-count" href="#">
-              <span class="visually-hidden">Избранное</span>
-            </a>
-            <span class="menu-count">12</span>
-            <a class="link menu-icon-link cart-link-count" href="#">
-              <span class="visually-hidden">Корзина</span>
-            </a>
-            <span class="menu-count">2</span>
-
-            <a class="link order-link" href="#">Оформить заказ</a>
-          </nav>
-        </div>
-      </header>
-
-
-      <!-- Баннеры услуг -->
-      <section class="banners-services">
-        <h2 class="visually-hidden">Баннеры услуг</h2>
-        <ul class="list banners-services-list">
-          <li class="banners-services-item banners-services-item-materials">
-            <h3 class="title banner-title">Материалы</h3>
-            <a class="link banner-link" href="#">На любой вкус</a>
-          </li>
-          <li class="banners-services-item banners-services-item-tools">
-            <h3 class="title banner-title">Инструмент</h3>
-            <a class="link banner-link" href="#">На все случаи</a>
-          </li>
-          <li class="banners-services-item banners-services-item-technique">
-            <h3 class="title banner-title">Техника</h3>
-            <a class="link banner-link" href="#">Для стройки</a>
-          </li>
-          <li class="banners-services-item banners-services-item-slider">
-
-            <!-- Первый слайд -->
-            <div class="slide-1">
-              <h3 class="title slider-title">Дрели</h3>
-              <p class="paragraph hero-slider">Соседям на радость!</p>
-              <div class="slider-controls">
-                <button class="btn slider-btn slider-btn-prev" type="button">
-                  <span class="visually-hidden">Предыдущий слайд</span>
+              <!-- Поповер логина -->
+              <div class="login-popover-container">
+                <h2 class="title login-popover-title">Личный кабинет</h2>
+                <button class="btn close-login-popover-btn" type="button">
+                  <span class="visually-hidden">Закрыть форму логина</span>
                 </button>
-                <button class="btn slider-btn slider-btn-next" type="button">
-                  <span class="visually-hidden">Слудующий слайд</span>
-                </button>
-              </div>
-              <a class="link slider-link" href="#">Открыть каталог</a>
-              <ul class="list pagination-list">
-                <li class="pagination-item">
-                  <button class="btn pagination-btn pagination-btn-current">
-                    <span class="visually-hidden">1 слайд</span>
-                  </button>
-                </li>
-                <li class="pagination-item">
-                  <button class="btn pagination-btn">
-                    <span class="visually-hidden">2 слайд</span>
-                  </button>
-                </li>
-                <li class="pagination-item">
-                  <button class="btn pagination-btn">
-                    <span class="visually-hidden">3 слайд</span>
-                  </button>
-                </li>
-              </ul>
-            </div>
 
-            <!-- Второй слайд -->
-            <div class="slide-2">
-              <h3 class="title slider-title">Перфораторы </h3>
-              <p class="paragraph hero-slider">Настроящие мужские игрушки</p>
-              <div class="slider-controls">
-                <button class="btn slider-btn slider-btn-prev" type="button">
-                  <span class="visually-hidden">Предыдущий слайд</span>
-                </button>
-                <button class="btn slider-btn slider-btn-next" type="button">
-                  <span class="visually-hidden">Слудующий слайд</span>
-                </button>
-              </div>
-              <a class="link slider-link" href="#">Открыть каталог</a>
-              <ul class="list pagination-list">
-                <li class="pagination-item">
-                  <button class="btn pagination-btn">
-                    <span class="visually-hidden">1 слайд</span>
-                  </button>
-                </li>
-                <li class="pagination-item">
-                  <button class="btn pagination-btn pagination-btn-current">
-                    <span class="visually-hidden">2 слайд</span>
-                  </button>
-                </li>
-                <li class="pagination-item">
-                  <button class="btn pagination-btn">
-                    <span class="visually-hidden">3 слайд</span>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="banners-services-item banners-services-item-discount">
-            <h3 class="title banner-title">Скидки 50%</h3>
-            <a class="link banner-link" href="#">На 350 товаров</a>
-          </li>
-          <li class="banners-services-item banners-services-item-delivery">
-            <h3 class="title banner-title">Доставка</h3>
-            <a class="link banner-link" href="#">Бесплатно</a>
-          </li>
-        </ul>
-      </section>
-
-
-      <!-- Каталог -->
-      <section class="catalog">
-        <h2 class="title catalog-title">Перфораторы</h2>
-        <div class="catalog-container">
-          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-
-            <!-- Rande bar -->
-            <fieldset class="catalog-filter-group catalog-filter-group-range">
-              <legend class="catalog-filter-group-legend">Цена</legend>
-              <div class="range">
-                <div class="range-wrapper">
-                  <div class="range-scale">
-                    <div class="range-bar" style="left: 0; width: 138px;">
-                      <button class="btn range-toggle range-toggle-min" type="button">
-                        <span class="visually-hidden">Изменить минимальную цену</span>
-                      </button>
-                      <button class="btn range-toggle range-toggle-max" type="button">
-                        <span class="visually-hidden">Изменить максимальную цену</span>
-                      </button>
-                    </div>
+                <form action="https://echo.htmlacademy.ru/" method="post">
+                  <label class="visually-hidden" for="login-text-popover">Логин</label>
+                  <input class="field popover-field" type="text" id="login-text-popover" placeholder="Логин">
+                  <label class="visually-hidden" for="password-text-popover">Пароль</label>
+                  <input class="field popover-field" type="password" id="password-text-popover" placeholder="Пароль">
+                  <div class="profile-popover-wrapper">
+                    <label>
+                      <input class="visually-hidden control-popover-input" type="checkbox" name="Запомнить меня"
+                        checked>
+                      <span class="control-mark-popover"></span>
+                      <span class="control-label-popover">Запомнить меня</span>
+                    </label>
+                    <a class="link forgot-link-popover" href="#">Забыл пароль</a>
                   </div>
-                </div>
-                <div class="range-inputs-wrapper">
-                  <label class="visually-hidden" for="min-price">Минимальная цена</label>
-                  <input class="field range-field" type="number" name="min-price" id="min-price" placeholder="0">
-                  <label class="visually-hidden" for="max-price">Максимальная цена</label>
-                  <input class="field range-field" type="number" name="max-price" id="max-price" placeholder="30000">
-                </div>
+                  <div class="btn-popover-wrapper">
+                    <a class="link link-popover login-link-popover" href="#">войти</a>
+                    <a class="link link-popover auth-link-popover" href="#">регистрация</a>
+                  </div>
+                </form>
               </div>
-            </fieldset>
 
-            <!-- Чекбоксы -->
-            <fieldset class="catalog-filter-group catalog-filter-group-checkbox">
-              <legend class="catalog-filter-group-legend">Производители</legend>
-              <ul class="list catalog-filter-list">
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="visually-hidden catalog-field" type="checkbox" name="BOSCH" checked>
-                    <span class="control-span control-mark control-mark-checkbox"></span>
-                    <span class="control-span control-label">BOSCH</span>
-                  </label>
-                </li>
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="visually-hidden catalog-field" type="checkbox" name="ИНТЕРСКОЛ">
-                    <span class="control-span control-mark control-mark-checkbox"></span>
-                    <span class="control-span control-label">ИНТЕРСКОЛ</span>
-                  </label>
-                </li>
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="visually-hidden catalog-field" type="checkbox" name="MAKIta" checked>
-                    <span class="control-span control-mark control-mark-checkbox"></span>
-                    <span class="control-span control-label">MAKIta</span>
-                  </label>
-                </li>
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="visually-hidden catalog-field" type="checkbox" name="Dewalt">
-                    <span class="control-span control-mark control-mark-checkbox"></span>
-                    <span class="control-span control-label">Dewalt</span>
-                  </label>
-                </li>
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="visually-hidden catalog-field" type="checkbox" name="Hitachi">
-                    <span class="control-span control-mark control-mark-checkbox"></span>
-                    <span class="control-span control-label">Hitachi</span>
-                  </label>
-                </li>
-              </ul>
-            </fieldset>
+              <!-- Авторизированная страница -->
+              <button class="btn profile-btn" type="button">Равшан Джамшутович</button>
 
-            <!-- Радиокнопки -->
-            <fieldset class="catalog-filter-group catalog-filter-group-radio">
-              <legend class="catalog-filter-group-legend">Питание</legend>
-              <ul class="list catalog-filter-list">
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="visually-hidden catalog-field" type="radio" name="питание" value="аккумуляторные"
-                      checked>
-                    <span class="control-span control-mark control-mark-radio"></span>
-                    <span class="control-span control-label">Аккумуляторные</span>
-                  </label>
-                </li>
-                <li class="catalog-filter-item">
-                  <label class="control">
-                    <input class="visually-hidden catalog-field" type="radio" name="питание" value="cетевые">
-                    <span class="control-span control-mark control-mark-radio"></span>
-                    <span class="control-span control-label">Сетевые</span>
-                  </label>
-                </li>
-              </ul>
-            </fieldset>
+              <!-- Поповер профиля -->
+              <div class="profile-popover-container">
+                <h2 class="title profile-popover-title">Здравствуйте,<br>
+                  Равшан Джамшутович</h2>
+                <button class="btn close-login-popover-btn" type="button">
+                  <span class="visually-hidden">Закрыть форму логина</span>
+                </button>
+                <a class="link profile-popover-link" href="#">мои заказы</a>
+                <a class="link profile-popover-link" href="#">личный кабинет</a>
+                <a class="link profile-popover-link-unlogin" href="#">выйти</a>
+              </div>
 
-            <button class="btn catalog-filter-btn" type="submit">Показать</button>
-          </form>
-
-          <div class="catalog-right-column">
-
-            <!-- Селект -->
-            <select class="select-control" name="Сортировка" aria-label="Сортировка">
-              <option value="popular">Популярные</option>
-              <option value="cheap">Дешевле</option>
-              <option value="expensive">Дороже</option>
-            </select>
-            <svg class="select-arrow" width="10" height="8" viewBox="0 0 10 8" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M8 0.903931L9.41421 2.31814L4.70711 7.02525L0 2.31814L1.41421 0.903931L4.70711 4.19682L8 0.903931Z" />
-            </svg>
-
-            <!-- Список товаров -->
-            <ul class="list product-list">
-              <li class="product-card product-card-new">
-                <img class="product-card-image" src="./images/product-1.png" alt="Фото товара." width="216"
-                  height="180">
-                <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 3000</h3>
-                <span class="old-price"><s>22500 ₽</s></span>
-                <button class="btn price-btn" type="button">15500 ₽</button>
-                <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
-                </svg>
-                <button class="btn cart-btn" type="button">Купить</button>
-                <button class="btn bookmark-btn" type="button">В закладки</button>
-              </li>
-              <li class="product-card product-card-new">
-                <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
-                  height="180">
-                <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 6000</h3>
-                <span class="old-price">30500 ₽</span>
-                <button class="btn price-btn" type="button">25500 ₽</button>
-                <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
-                </svg>
-                <button class="btn cart-btn" type="button">Купить</button>
-                <button class="btn bookmark-btn" type="button">В закладки</button>
-              </li>
-              <li class="product-card product-card-new">
-                <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
-                  height="180">
-                <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 2000</h3>
-                <button class="btn price-btn" type="button">25500 ₽</button>
-                <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
-                </svg>
-                <button class="btn cart-btn" type="button">Купить</button>
-                <button class="btn bookmark-btn" type="button">В закладки</button>
-              </li>
-              <li class="product-card product-card-new">
-                <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
-                  height="180">
-                <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 3000</h3>
-                <span class="old-price"><s>22500 ₽</s></span>
-                <button class="btn price-btn" type="button">15500 ₽</button>
-                <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
-                </svg>
-                <button class="btn cart-btn" type="button">Купить</button>
-                <button class="btn bookmark-btn" type="button">В закладки</button>
-              </li>
-              <li class="product-card product-card-new">
-                <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
-                  height="180">
-                <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 6000</h3>
-                <button class="btn price-btn" type="button">25500 ₽</button>
-                <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
-                </svg>
-                <button class="btn cart-btn" type="button">Купить</button>
-                <button class="btn bookmark-btn" type="button">В закладки</button>
-              </li>
-              <li class="product-card product-card-new">
-                <img class="product-card-image" src="./images/product-3.png" alt="Фото товара." width="216"
-                  height="180">
-                <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 2000</h3>
-                <button class="btn price-btn" type="button">25500 ₽</button>
-                <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
-                </svg>
-                <button class="btn cart-btn" type="button">Купить</button>
-                <button class="btn bookmark-btn" type="button">В закладки</button>
-              </li>
-              <li class="product-card product-card-new">
-                <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
-                  height="180">
-                <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 3000</h3>
-                <span class="old-price"><s>22500 ₽</s></span>
-                <button class="btn price-btn" type="button">15500 ₽</button>
-                <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
-                </svg>
-                <button class="btn cart-btn" type="button">Купить</button>
-                <button class="btn bookmark-btn" type="button">В закладки</button>
-              </li>
-              <li class="product-card product-card-new">
-                <img class="product-card-image" src="./images/product-4.png" alt="Фото товара." width="216"
-                  height="180">
-                <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 6000</h3>
-                <span class="old-price">30500 ₽</span>
-                <button class="btn price-btn" type="button">25500 ₽</button>
-                <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
-                </svg>
-                <button class="btn cart-btn" type="button">Купить</button>
-                <button class="btn bookmark-btn" type="button">В закладки</button>
-              </li>
-              <li class="product-card product-card-new">
-                <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
-                  height="180">
-                <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 2000</h3>
-                <button class="btn price-btn" type="button">25500 ₽</button>
-                <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
-                </svg>
-                <button class="btn cart-btn" type="button">Купить</button>
-                <button class="btn bookmark-btn" type="button">В закладки</button>
-              </li>
-            </ul>
-
-            <!-- Пагинация -->
-            <div class="catalog-pagination-wrapper">
-              <ol class="list catalog-pagination-list">
-                <li>
-                  <a class="link catalog-pagination-link" href="#">1</a>
-                </li>
-                <li>
-                  <a class="link catalog-pagination-link catalog-pagination-link-current">2</a>
-                </li>
-                <li>
-                  <a class="link catalog-pagination-link" href="#">3</a>
-                </li>
-                <li>
-                  <a class="link catalog-pagination-link" href="#">4</a>
-                </li>
-              </ol>
-              <button class="btn catalog-pagination-btn" type="button">показать еще</button>
+              <a class="link unlogin-link" href="#">
+                <span class="visually-hidden">Выход из профиля</span>
+              </a>
             </div>
           </div>
-        </div>
-      </section>
+
+          <div class="nav-header-bg">
+            <nav class="nav-header">
+              <ul class="list nav-list">
+                <li class="nav-item">
+                  <a class="link nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="link nav-link" href="#">Компания</a>
+                </li>
+                <li class="nav-item">
+                  <a class="link nav-link" href="#">Каталог</a>
+                </li>
+                <li class="nav-item">
+                  <a class="link nav-link" href="#">Новости</a>
+                </li>
+                <li class="nav-item">
+                  <a class="link nav-link" href="#">Спецпредложения</a>
+                </li>
+                <li class="nav-item">
+                  <a class="link nav-link" href="#">Доставка</a>
+                </li>
+                <li class="nav-item">
+                  <a class="link nav-link" href="#">Контакты</a>
+                </li>
+              </ul>
+
+              <a class="link menu-icon-link bookmark-link" href="#">
+                <span class="visually-hidden">Избранное</span>
+              </a>
+              <a class="link menu-icon-link cart-link" href="#">
+                <span class="visually-hidden">Корзина</span>
+              </a>
+
+              <a class="link menu-icon-link bookmark-link-count" href="#">
+                <span class="visually-hidden">Избранное</span>
+              </a>
+              <span class="menu-count">12</span>
+              <a class="link menu-icon-link cart-link-count" href="#">
+                <span class="visually-hidden">Корзина</span>
+              </a>
+              <span class="menu-count">2</span>
+
+              <a class="link order-link" href="#">Оформить заказ</a>
+            </nav>
+          </div>
+        </header>
 
 
-      <!-- Сервисы -->
-      <section class="services-bg">
-        <div class="services-content">
-          <h2 class="title services-title">Сервисы</h2>
-          <p class="paragraph services-hero">Хороший интернет-магазин отличается от плохого не только ценами!
-            Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-          <ul class="list services-list">
-            <li class="services-item services-item-delivery">
-              <h3 class="title services-item-title">Доставка</h3>
-              <p class="paragraph services-discription">Мы с удовольствием доставим ваш товар прямо к вашему подъезду
-                совершенно бесплатно! Ведь мы неплохо заработаем,
-                поднимая его на ваш этаж!</p>
+        <!-- Баннеры услуг -->
+        <section class="banners-services">
+          <h2 class="visually-hidden">Баннеры услуг</h2>
+          <ul class="list banners-services-list">
+            <li class="banners-services-item banners-services-item-materials">
+              <h3 class="title banner-title">Материалы</h3>
+              <a class="link banner-link" href="#">На любой вкус</a>
             </li>
-            <li class="services-item services-item-warranty">
-              <h3 class="title services-item-title">Гарантия</h3>
-              <p class="paragraph services-discription">Вы в течение года можете написать нам письмо с просьбой вернуть
-                сумму оплаты, и мы полностью возместим вам стоимось товара</p>
+            <li class="banners-services-item banners-services-item-tools">
+              <h3 class="title banner-title">Инструмент</h3>
+              <a class="link banner-link" href="#">На все случаи</a>
             </li>
-            <li class="services-item services-item-credit">
-              <h3 class="title services-item-title">Кредит</h3>
-              <p class="paragraph services-discription">Вы можете оформить кредит прямо на сайте! Для этого нужно
-                выбрать понравившийся товар и заполнить поля и ждать результата одобрения кредита.<br>
-                Все как в банке, только проще!</p>
+            <li class="banners-services-item banners-services-item-technique">
+              <h3 class="title banner-title">Техника</h3>
+              <a class="link banner-link" href="#">Для стройки</a>
+            </li>
+            <li class="banners-services-item banners-services-item-slider">
+
+              <!-- Первый слайд -->
+              <div class="slide-1">
+                <h3 class="title slider-title">Дрели</h3>
+                <p class="paragraph hero-slider">Соседям на радость!</p>
+                <div class="slider-controls">
+                  <button class="btn slider-btn slider-btn-prev" type="button">
+                    <span class="visually-hidden">Предыдущий слайд</span>
+                  </button>
+                  <button class="btn slider-btn slider-btn-next" type="button">
+                    <span class="visually-hidden">Слудующий слайд</span>
+                  </button>
+                </div>
+                <a class="link slider-link" href="#">Открыть каталог</a>
+                <ul class="list pagination-list">
+                  <li class="pagination-item">
+                    <button class="btn pagination-btn pagination-btn-current">
+                      <span class="visually-hidden">1 слайд</span>
+                    </button>
+                  </li>
+                  <li class="pagination-item">
+                    <button class="btn pagination-btn">
+                      <span class="visually-hidden">2 слайд</span>
+                    </button>
+                  </li>
+                  <li class="pagination-item">
+                    <button class="btn pagination-btn">
+                      <span class="visually-hidden">3 слайд</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Второй слайд -->
+              <div class="slide-2">
+                <h3 class="title slider-title">Перфораторы </h3>
+                <p class="paragraph hero-slider">Настроящие мужские игрушки</p>
+                <div class="slider-controls">
+                  <button class="btn slider-btn slider-btn-prev" type="button">
+                    <span class="visually-hidden">Предыдущий слайд</span>
+                  </button>
+                  <button class="btn slider-btn slider-btn-next" type="button">
+                    <span class="visually-hidden">Слудующий слайд</span>
+                  </button>
+                </div>
+                <a class="link slider-link" href="#">Открыть каталог</a>
+                <ul class="list pagination-list">
+                  <li class="pagination-item">
+                    <button class="btn pagination-btn">
+                      <span class="visually-hidden">1 слайд</span>
+                    </button>
+                  </li>
+                  <li class="pagination-item">
+                    <button class="btn pagination-btn pagination-btn-current">
+                      <span class="visually-hidden">2 слайд</span>
+                    </button>
+                  </li>
+                  <li class="pagination-item">
+                    <button class="btn pagination-btn">
+                      <span class="visually-hidden">3 слайд</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="banners-services-item banners-services-item-discount">
+              <h3 class="title banner-title">Скидки 50%</h3>
+              <a class="link banner-link" href="#">На 350 товаров</a>
+            </li>
+            <li class="banners-services-item banners-services-item-delivery">
+              <h3 class="title banner-title">Доставка</h3>
+              <a class="link banner-link" href="#">Бесплатно</a>
             </li>
           </ul>
-        </div>
-      </section>
+        </section>
 
 
-      <!-- О компании -->
-      <section class="about">
-        <h2 class="visually-hidden">Контактная информация</h2>
-        <div class="about-content">
-          <div class="about-column">
-            <h3 class="title about-title">Компания «Техномарт»</h3>
-            <p class="paragraph about-discriptions">Настоящий мужской шоппинг начинается здесь! Огромный выбор
-              товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-            <p class="paragraph about-discriptions"> Мы можем доставить ваш товар в самые отдаленные точки России!
-              Техномарт работает со многими транспортными компаниями:</p>
-            <a class="link about-link" href="#">о компании</a>
+        <!-- Каталог -->
+        <section class="catalog">
+          <h2 class="title catalog-title">Перфораторы</h2>
+          <div class="catalog-container">
+            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+
+              <!-- Rande bar -->
+              <fieldset class="catalog-filter-group catalog-filter-group-range">
+                <legend class="catalog-filter-group-legend">Цена</legend>
+                <div class="range">
+                  <div class="range-wrapper">
+                    <div class="range-scale">
+                      <div class="range-bar" style="left: 0; width: 138px;">
+                        <button class="btn range-toggle range-toggle-min" type="button">
+                          <span class="visually-hidden">Изменить минимальную цену</span>
+                        </button>
+                        <button class="btn range-toggle range-toggle-max" type="button">
+                          <span class="visually-hidden">Изменить максимальную цену</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="range-inputs-wrapper">
+                    <label class="visually-hidden" for="min-price">Минимальная цена</label>
+                    <input class="field range-field" type="number" name="min-price" id="min-price" placeholder="0">
+                    <label class="visually-hidden" for="max-price">Максимальная цена</label>
+                    <input class="field range-field" type="number" name="max-price" id="max-price" placeholder="30000">
+                  </div>
+                </div>
+              </fieldset>
+
+              <!-- Чекбоксы -->
+              <fieldset class="catalog-filter-group catalog-filter-group-checkbox">
+                <legend class="catalog-filter-group-legend">Производители</legend>
+                <ul class="list catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden catalog-field" type="checkbox" name="BOSCH" checked>
+                      <span class="control-span control-mark control-mark-checkbox"></span>
+                      <span class="control-span control-label">BOSCH</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden catalog-field" type="checkbox" name="ИНТЕРСКОЛ">
+                      <span class="control-span control-mark control-mark-checkbox"></span>
+                      <span class="control-span control-label">ИНТЕРСКОЛ</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden catalog-field" type="checkbox" name="MAKIta" checked>
+                      <span class="control-span control-mark control-mark-checkbox"></span>
+                      <span class="control-span control-label">MAKIta</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden catalog-field" type="checkbox" name="Dewalt">
+                      <span class="control-span control-mark control-mark-checkbox"></span>
+                      <span class="control-span control-label">Dewalt</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden catalog-field" type="checkbox" name="Hitachi">
+                      <span class="control-span control-mark control-mark-checkbox"></span>
+                      <span class="control-span control-label">Hitachi</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+
+              <!-- Радиокнопки -->
+              <fieldset class="catalog-filter-group catalog-filter-group-radio">
+                <legend class="catalog-filter-group-legend">Питание</legend>
+                <ul class="list catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden catalog-field" type="radio" name="питание" value="аккумуляторные"
+                        checked>
+                      <span class="control-span control-mark control-mark-radio"></span>
+                      <span class="control-span control-label">Аккумуляторные</span>
+                    </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="visually-hidden catalog-field" type="radio" name="питание" value="cетевые">
+                      <span class="control-span control-mark control-mark-radio"></span>
+                      <span class="control-span control-label">Сетевые</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+
+              <button class="btn catalog-filter-btn" type="submit">Показать</button>
+            </form>
+
+            <div class="catalog-right-column">
+
+              <!-- Селект -->
+              <select class="select-control" name="Сортировка" aria-label="Сортировка">
+                <option value="popular">Популярные</option>
+                <option value="cheap">Дешевле</option>
+                <option value="expensive">Дороже</option>
+              </select>
+              <svg class="select-arrow" width="10" height="8" viewBox="0 0 10 8" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 0.903931L9.41421 2.31814L4.70711 7.02525L0 2.31814L1.41421 0.903931L4.70711 4.19682L8 0.903931Z" />
+              </svg>
+
+              <!-- Список товаров -->
+              <ul class="list product-list">
+                <li class="product-card product-card-new">
+                  <img class="product-card-image" src="./images/product-1.png" alt="Фото товара." width="216"
+                    height="180">
+                  <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 3000</h3>
+                  <span class="old-price"><s>22500 ₽</s></span>
+                  <button class="btn price-btn" type="button">15500 ₽</button>
+                  <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
+                  </svg>
+                  <button class="btn cart-btn" type="button">Купить</button>
+                  <button class="btn bookmark-btn" type="button">В закладки</button>
+                </li>
+                <li class="product-card product-card-new">
+                  <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
+                    height="180">
+                  <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 6000</h3>
+                  <span class="old-price">30500 ₽</span>
+                  <button class="btn price-btn" type="button">25500 ₽</button>
+                  <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
+                  </svg>
+                  <button class="btn cart-btn" type="button">Купить</button>
+                  <button class="btn bookmark-btn" type="button">В закладки</button>
+                </li>
+                <li class="product-card product-card-new">
+                  <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
+                    height="180">
+                  <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 2000</h3>
+                  <button class="btn price-btn" type="button">25500 ₽</button>
+                  <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
+                  </svg>
+                  <button class="btn cart-btn" type="button">Купить</button>
+                  <button class="btn bookmark-btn" type="button">В закладки</button>
+                </li>
+                <li class="product-card product-card-new">
+                  <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
+                    height="180">
+                  <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 3000</h3>
+                  <span class="old-price"><s>22500 ₽</s></span>
+                  <button class="btn price-btn" type="button">15500 ₽</button>
+                  <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
+                  </svg>
+                  <button class="btn cart-btn" type="button">Купить</button>
+                  <button class="btn bookmark-btn" type="button">В закладки</button>
+                </li>
+                <li class="product-card product-card-new">
+                  <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
+                    height="180">
+                  <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 6000</h3>
+                  <button class="btn price-btn" type="button">25500 ₽</button>
+                  <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
+                  </svg>
+                  <button class="btn cart-btn" type="button">Купить</button>
+                  <button class="btn bookmark-btn" type="button">В закладки</button>
+                </li>
+                <li class="product-card product-card-new">
+                  <img class="product-card-image" src="./images/product-3.png" alt="Фото товара." width="216"
+                    height="180">
+                  <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 2000</h3>
+                  <button class="btn price-btn" type="button">25500 ₽</button>
+                  <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
+                  </svg>
+                  <button class="btn cart-btn" type="button">Купить</button>
+                  <button class="btn bookmark-btn" type="button">В закладки</button>
+                </li>
+                <li class="product-card product-card-new">
+                  <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
+                    height="180">
+                  <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 3000</h3>
+                  <span class="old-price"><s>22500 ₽</s></span>
+                  <button class="btn price-btn" type="button">15500 ₽</button>
+                  <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
+                  </svg>
+                  <button class="btn cart-btn" type="button">Купить</button>
+                  <button class="btn bookmark-btn" type="button">В закладки</button>
+                </li>
+                <li class="product-card product-card-new">
+                  <img class="product-card-image" src="./images/product-4.png" alt="Фото товара." width="216"
+                    height="180">
+                  <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 6000</h3>
+                  <span class="old-price">30500 ₽</span>
+                  <button class="btn price-btn" type="button">25500 ₽</button>
+                  <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
+                  </svg>
+                  <button class="btn cart-btn" type="button">Купить</button>
+                  <button class="btn bookmark-btn" type="button">В закладки</button>
+                </li>
+                <li class="product-card product-card-new">
+                  <img class="product-card-image" src="./images/product-2.png" alt="Фото товара." width="216"
+                    height="180">
+                  <h3 class="title product-card-title">Перфоратор BOSCH<br>BFG 2000</h3>
+                  <button class="btn price-btn" type="button">25500 ₽</button>
+                  <svg class="price-btn-bg" width="140" height="41" viewBox="0 0 140 41" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M121.95 2.13A4 4 0 0 0 119.07.9H2.97C1.35.9 0 2.32 0 4.06v33.69c0 1.73 1.34 3.15 2.98 3.15h116.09a4 4 0 0 0 2.88-1.22l15.38-16a4 4 0 0 0 0-5.55l-15.38-16Z" />
+                  </svg>
+                  <button class="btn cart-btn" type="button">Купить</button>
+                  <button class="btn bookmark-btn" type="button">В закладки</button>
+                </li>
+              </ul>
+
+              <!-- Пагинация -->
+              <div class="catalog-pagination-wrapper">
+                <ol class="list catalog-pagination-list">
+                  <li>
+                    <a class="link catalog-pagination-link" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="link catalog-pagination-link catalog-pagination-link-current">2</a>
+                  </li>
+                  <li>
+                    <a class="link catalog-pagination-link" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="link catalog-pagination-link" href="#">4</a>
+                  </li>
+                </ol>
+                <button class="btn catalog-pagination-btn" type="button">показать еще</button>
+              </div>
+            </div>
           </div>
-          <div>
-            <h3 class="title about-title">Контакты</h3>
-            <p class="paragraph about-discriptions about-discriptions-contacts">Вы можете забрать товар сами, заехав в
-              наш офис:</p>
-            <a class="link map-link" href="#">
-              <img src="./images/map.png" alt="Расположение офиса на карте" width="500" height="347">
-            </a>
-          </div>
-        </div>
-      </section>
+        </section>
 
+
+        <!-- Сервисы -->
+        <section class="services-bg">
+          <div class="services-content">
+            <h2 class="title services-title">Сервисы</h2>
+            <p class="paragraph services-hero">Хороший интернет-магазин отличается от плохого не только ценами!
+              Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+            <ul class="list services-list">
+              <li class="services-item services-item-delivery">
+                <h3 class="title services-item-title">Доставка</h3>
+                <p class="paragraph services-discription">Мы с удовольствием доставим ваш товар прямо к вашему подъезду
+                  совершенно бесплатно! Ведь мы неплохо заработаем,
+                  поднимая его на ваш этаж!</p>
+              </li>
+              <li class="services-item services-item-warranty">
+                <h3 class="title services-item-title">Гарантия</h3>
+                <p class="paragraph services-discription">Вы в течение года можете написать нам письмо с просьбой
+                  вернуть
+                  сумму оплаты, и мы полностью возместим вам стоимось товара</p>
+              </li>
+              <li class="services-item services-item-credit">
+                <h3 class="title services-item-title">Кредит</h3>
+                <p class="paragraph services-discription">Вы можете оформить кредит прямо на сайте! Для этого нужно
+                  выбрать понравившийся товар и заполнить поля и ждать результата одобрения кредита.<br>
+                  Все как в банке, только проще!</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
+        <!-- О компании -->
+        <section class="about">
+          <h2 class="visually-hidden">Контактная информация</h2>
+          <div class="about-content">
+            <div class="about-column">
+              <h3 class="title about-title">Компания «Техномарт»</h3>
+              <p class="paragraph about-discriptions">Настоящий мужской шоппинг начинается здесь! Огромный выбор
+                товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+              <p class="paragraph about-discriptions"> Мы можем доставить ваш товар в самые отдаленные точки России!
+                Техномарт работает со многими транспортными компаниями:</p>
+              <a class="link about-link" href="#">о компании</a>
+            </div>
+            <div>
+              <h3 class="title about-title">Контакты</h3>
+              <p class="paragraph about-discriptions about-discriptions-contacts">Вы можете забрать товар сами, заехав в
+                наш офис:</p>
+              <a class="link map-link" href="#">
+                <img src="./images/map.png" alt="Расположение офиса на карте" width="500" height="347">
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
 
       <!-- Футер -->
       <footer>
